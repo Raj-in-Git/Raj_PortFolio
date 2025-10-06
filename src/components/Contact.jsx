@@ -1,0 +1,16 @@
+export default function Contact() {
+  return (
+    <section id="contact" className="py-20 px-6 bg-gray-50 text-center fade-in-up">
+      <h2 className="text-3xl font-bold mb-6">Get In Touch</h2>
+      <p className="text-lg text-gray-700 mb-8">
+        I'd love to collaborate or discuss new projects. Reach out below!
+      </p>
+      <a
+        href="mailto:youremail@example.com"
+        className="bg-blue-600 text-white px-8 py-3 rounded-lg glow-button hover:bg-blue-700 transition"
+      >
+        Say Hello 👋
+      </a>
+    </section>
+  );
+}
