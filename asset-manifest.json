@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Raj-in-Git/Raj_PortFolio.git/static/css/main.ff11d6da.css",
+    "main.js": "/Raj-in-Git/Raj_PortFolio.git/static/js/main.a03aec36.js",
+    "index.html": "/Raj-in-Git/Raj_PortFolio.git/index.html",
+    "main.ff11d6da.css.map": "/Raj-in-Git/Raj_PortFolio.git/static/css/main.ff11d6da.css.map",
+    "main.a03aec36.js.map": "/Raj-in-Git/Raj_PortFolio.git/static/js/main.a03aec36.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ff11d6da.css",
+    "static/js/main.a03aec36.js"
+  ]
+}
