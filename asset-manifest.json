@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Raj-in-Git/Raj_PortFolio.git/static/css/main.ff11d6da.css",
-    "main.js": "/Raj-in-Git/Raj_PortFolio.git/static/js/main.a03aec36.js",
-    "index.html": "/Raj-in-Git/Raj_PortFolio.git/index.html",
-    "main.ff11d6da.css.map": "/Raj-in-Git/Raj_PortFolio.git/static/css/main.ff11d6da.css.map",
-    "main.a03aec36.js.map": "/Raj-in-Git/Raj_PortFolio.git/static/js/main.a03aec36.js.map"
+    "main.css": "/Raj_PortFolio/static/css/main.ff11d6da.css",
+    "main.js": "/Raj_PortFolio/static/js/main.3a3df515.js",
+    "index.html": "/Raj_PortFolio/index.html",
+    "main.ff11d6da.css.map": "/Raj_PortFolio/static/css/main.ff11d6da.css.map",
+    "main.3a3df515.js.map": "/Raj_PortFolio/static/js/main.3a3df515.js.map"
   },
   "entrypoints": [
     "static/css/main.ff11d6da.css",
-    "static/js/main.a03aec36.js"
+    "static/js/main.3a3df515.js"
   ]
 }
