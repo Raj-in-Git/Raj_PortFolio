@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Raj_PortFolio/static/css/main.ff11d6da.css",
-    "main.js": "/Raj_PortFolio/static/js/main.3a3df515.js",
+    "main.css": "/Raj_PortFolio/static/css/main.acf64f4a.css",
+    "main.js": "/Raj_PortFolio/static/js/main.e8a2b88f.js",
     "index.html": "/Raj_PortFolio/index.html",
-    "main.ff11d6da.css.map": "/Raj_PortFolio/static/css/main.ff11d6da.css.map",
-    "main.3a3df515.js.map": "/Raj_PortFolio/static/js/main.3a3df515.js.map"
+    "main.acf64f4a.css.map": "/Raj_PortFolio/static/css/main.acf64f4a.css.map",
+    "main.e8a2b88f.js.map": "/Raj_PortFolio/static/js/main.e8a2b88f.js.map"
   },
   "entrypoints": [
-    "static/css/main.ff11d6da.css",
-    "static/js/main.3a3df515.js"
+    "static/css/main.acf64f4a.css",
+    "static/js/main.e8a2b88f.js"
   ]
 }
