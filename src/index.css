@@ -7,24 +7,14 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
-  @apply bg-gray-50 text-gray-900 font-sans;
-}
-
 /* Fade-in animation */
 @keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
 }
 
 .fade-in-up {
-  animation: fadeInUp 1s ease-out;
+  animation: fadeInUp 1s ease-out forwards;
 }
 
 /* Button hover glow */
@@ -43,11 +33,45 @@ body {
   transform: translateY(-5px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
 }
-body {
-  @apply bg-gray-50 text-gray-900 font-sans;
-}
 
+/* Body transition for dark mode */
+body {
+  @apply bg-gray-50 text-gray-900 font-sans transition-colors duration-500;
+}
 .dark body {
   @apply bg-gray-900 text-gray-50;
 }
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeInUp {
+  animation: fadeInUp 1s ease-out forwards;
+}
+.fade-in-section {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.fade-in-section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+.project-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.project-card:hover {
+  transform: translateY(-5px) scale(1.03);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+
 

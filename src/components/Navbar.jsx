@@ -3,13 +3,9 @@ import { useState, useEffect } from "react";
 export default function Navbar() {
   const [darkMode, setDarkMode] = useState(false);
 
-  // Toggle body class
   useEffect(() => {
-    if (darkMode) {
-      document.documentElement.classList.add("dark");
-    } else {
-      document.documentElement.classList.remove("dark");
-    }
+    if (darkMode) document.documentElement.classList.add("dark");
+    else document.documentElement.classList.remove("dark");
   }, [darkMode]);
 
   return (
@@ -19,8 +15,6 @@ export default function Navbar() {
         <a href="#about" className="hover:text-blue-600 dark:hover:text-blue-300 transition-colors">About</a>
         <a href="#projects" className="hover:text-blue-600 dark:hover:text-blue-300 transition-colors">Projects</a>
         <a href="#contact" className="hover:text-blue-600 dark:hover:text-blue-300 transition-colors">Contact</a>
-
-        {/* Dark Mode Toggle Button */}
         <button
           onClick={() => setDarkMode(!darkMode)}
           className="ml-4 bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 px-3 py-1 rounded-lg transition"
