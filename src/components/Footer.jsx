@@ -12,17 +12,17 @@ export default function Footer() {
           <FaGithub size={24} />
         </a>
         <a
-          href="https://linkedin.com/in/your-profile"
+          href="https://linkedin.com/in/rajesh-v-501631154"
           target="_blank"
           rel="noopener noreferrer"
         >
           <FaLinkedin size={24} />
         </a>
-        <a href="mailto:youremail@example.com">
+        <a href="mailto:rajeshvrj27@gmail.com">
           <FaEnvelope size={24} />
         </a>
       </div>
-      © {new Date().getFullYear()} Rajesh. Built with ❤️ using React & Tailwind.
+      © {new Date().getFullYear()} Rajesh. Built with ❤️ using React.
     </footer>
   );
 }
