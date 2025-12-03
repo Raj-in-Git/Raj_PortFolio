@@ -6,7 +6,7 @@ export default function Contact() {
         I'd love to collaborate or discuss new projects. Reach out below!
       </p>
       <a
-        href="mailto:youremail@example.com"
+        href="mailto:rajeshvrj27@gmail.com"
         className="bg-blue-600 text-white px-8 py-3 rounded-lg glow-button hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-600 transition"
       >
         Say Hello 👋
