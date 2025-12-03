@@ -22,7 +22,7 @@ export default function Footer() {
           <FaEnvelope size={24} />
         </a>
       </div>
-      © {new Date().getFullYear()} Rajesh. Built with ❤️ using React.
+      © {new Date().getFullYear()} Rajesh. Built with using React.
     </footer>
   );
 }
