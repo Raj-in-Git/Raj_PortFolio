@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Raj_PortFolio/static/css/main.e88234b2.css",
-    "main.js": "/Raj_PortFolio/static/js/main.d023984c.js",
+    "main.js": "/Raj_PortFolio/static/js/main.11dd7b87.js",
     "index.html": "/Raj_PortFolio/index.html",
     "main.e88234b2.css.map": "/Raj_PortFolio/static/css/main.e88234b2.css.map",
-    "main.d023984c.js.map": "/Raj_PortFolio/static/js/main.d023984c.js.map"
+    "main.11dd7b87.js.map": "/Raj_PortFolio/static/js/main.11dd7b87.js.map"
   },
   "entrypoints": [
     "static/css/main.e88234b2.css",
-    "static/js/main.d023984c.js"
+    "static/js/main.11dd7b87.js"
   ]
 }
